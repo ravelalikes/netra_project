@@ -1,0 +1,50 @@
+/* Style the whole page */
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+}
+
+/* Style the main content box */
+.card {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: white;
+  border: 1px solid #d5dfe8;
+  border-radius: 10px;
+}
+
+/* Style the main heading */
+h1 {
+  color: navy;
+}
+
+/* Style paragraphs */
+p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Style the paragraph with class="highlight" */
+.highlight {
+  padding: 8px;
+  background-color: yellow;
+}
+
+/* Style the button */
+button {
+  padding: 10px 16px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Change the button color when the pointer is over it */
+button:hover {
+  background-color: darkgreen;
+}
